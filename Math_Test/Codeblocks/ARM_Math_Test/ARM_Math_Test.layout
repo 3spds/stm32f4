@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="../../../../Libraries/CMSIS/DSP_Lib/Examples/Common/Include/math_helper.h" open="0" top="0" tabpos="5">
+		<Cursor position="1937" topLine="28" />
+	</File>
+	<File name="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_fir_example/arm_fir_example_f32.c" open="0" top="0" tabpos="0">
+		<Cursor position="2559" topLine="195" />
+	</File>
+	<File name="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_graphic_equalizer_example/arm_graphic_equalizer_data.c" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="69" />
+	</File>
+	<File name="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_graphic_equalizer_example/arm_graphic_equalizer_example_q31.c" open="0" top="0" tabpos="6">
+		<Cursor position="5347" topLine="280" />
+	</File>
+	<File name="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_matrix_example/arm_matrix_example_f32.c" open="0" top="0" tabpos="2">
+		<Cursor position="5015" topLine="130" />
+	</File>
+	<File name="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_signal_converge_example/arm_signal_converge_example_f32.c" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="213" />
+	</File>
+	<File name="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_sin_cos_example/arm_sin_cos_example_f32.c" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="109" />
+	</File>
+	<File name="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_variance_example/arm_variance_example_f32.c" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="164" />
+	</File>
+	<File name="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_abs_f32.c" open="1" top="0" tabpos="3">
+		<Cursor position="1915" topLine="50" />
+	</File>
+	<File name="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_init_f32.c" open="0" top="0" tabpos="6">
+		<Cursor position="2054" topLine="0" />
+	</File>
+	<File name="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_rms_f32.c" open="0" top="0" tabpos="0">
+		<Cursor position="1875" topLine="67" />
+	</File>
+	<File name="../../../../Libraries/CMSIS/Include/arm_math.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="540" />
+	</File>
+	<File name="../../../../Libraries/CMSIS/ST/STM32F4xx/Include/stm32f4xx.h" open="0" top="0" tabpos="11">
+		<Cursor position="67252" topLine="1116" />
+	</File>
+	<File name="../../../../Libraries/CMSIS/ST/STM32F4xx/Include/system_stm32f4xx.h" open="0" top="0" tabpos="0">
+		<Cursor position="1807" topLine="67" />
+	</File>
+	<File name="../../../../Libraries/CMSIS/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c" open="0" top="0" tabpos="0">
+		<Cursor position="7800" topLine="155" />
+	</File>
+	<File name="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_gpio.h" open="0" top="0" tabpos="0">
+		<Cursor position="5029" topLine="119" />
+	</File>
+	<File name="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_sdio.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="12" />
+	</File>
+	<File name="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_wwdg.h" open="0" top="0" tabpos="14">
+		<Cursor position="2877" topLine="29" />
+	</File>
+	<File name="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c" open="0" top="0" tabpos="8">
+		<Cursor position="30014" topLine="779" />
+	</File>
+	<File name="../../inc/arm_math.h" open="1" top="0" tabpos="4">
+		<Cursor position="7916" topLine="177" />
+	</File>
+	<File name="../../inc/core_cm4.h" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="87" />
+	</File>
+	<File name="../../inc/stm32f4_discovery.h" open="0" top="0" tabpos="2">
+		<Cursor position="3199" topLine="91" />
+	</File>
+	<File name="../../inc/stm32f4xx.h" open="0" top="0" tabpos="12">
+		<Cursor position="67935" topLine="1220" />
+	</File>
+	<File name="../../inc/stm32f4xx_adc.h" open="0" top="0" tabpos="7">
+		<Cursor position="29961" topLine="576" />
+	</File>
+	<File name="../../inc/stm32f4xx_conf.h" open="0" top="0" tabpos="1">
+		<Cursor position="1908" topLine="0" />
+	</File>
+	<File name="../../src/main_filt.c" open="0" top="0" tabpos="1">
+		<Cursor position="4242" topLine="228" />
+	</File>
+	<File name="../../src/main_filt_dsp.c" open="1" top="0" tabpos="5">
+		<Cursor position="712" topLine="37" />
+	</File>
+	<File name="../../src/main_svd.c" open="1" top="0" tabpos="1">
+		<Cursor position="5455" topLine="69" />
+	</File>
+	<File name="../../src/stm32f4_discovery.c" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="198" />
+	</File>
+	<File name="../../src/svd.c" open="1" top="1" tabpos="2">
+		<Cursor position="9917" topLine="127" />
+	</File>
+	<File name="../../src/system_stm32f4xx.c" open="0" top="0" tabpos="4">
+		<Cursor position="8687" topLine="186" />
+	</File>
+</CodeBlocks_layout_file>

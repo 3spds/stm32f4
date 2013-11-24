@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ARM_Math_Test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/ARM_Math_Test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/Common/Include/math_helper.h" />
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/Common/Source/math_helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_class_marks_example/arm_class_marks_example_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_class_marks_example/system_ARMCM0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_class_marks_example/system_ARMCM3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_class_marks_example/system_ARMCM4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_convolution_example/arm_convolution_example_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_convolution_example/system_ARMCM0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_convolution_example/system_ARMCM3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_convolution_example/system_ARMCM4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_dotproduct_example/arm_dotproduct_example_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_dotproduct_example/system_ARMCM0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_dotproduct_example/system_ARMCM3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_dotproduct_example/system_ARMCM4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_fft_bin_example/arm_fft_bin_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_fft_bin_example/arm_fft_bin_example_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_fft_bin_example/system_ARMCM0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_fft_bin_example/system_ARMCM3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_fft_bin_example/system_ARMCM4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_fir_example/arm_fir_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_fir_example/arm_fir_example_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_fir_example/system_ARMCM0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_fir_example/system_ARMCM3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_fir_example/system_ARMCM4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_graphic_equalizer_example/arm_graphic_equalizer_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_graphic_equalizer_example/arm_graphic_equalizer_example_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_graphic_equalizer_example/system_ARMCM0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_graphic_equalizer_example/system_ARMCM3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_graphic_equalizer_example/system_ARMCM4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_linear_interp_example/arm_linear_interp_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_linear_interp_example/arm_linear_interp_example_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_linear_interp_example/system_ARMCM0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_linear_interp_example/system_ARMCM3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_linear_interp_example/system_ARMCM4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_matrix_example/arm_matrix_example_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_matrix_example/system_ARMCM0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_matrix_example/system_ARMCM3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_matrix_example/system_ARMCM4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_signal_converge_example/arm_signal_converge_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_signal_converge_example/arm_signal_converge_example_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_signal_converge_example/system_ARMCM0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_signal_converge_example/system_ARMCM3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_signal_converge_example/system_ARMCM4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_sin_cos_example/arm_sin_cos_example_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_sin_cos_example/system_ARMCM0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_sin_cos_example/system_ARMCM3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_sin_cos_example/system_ARMCM4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_variance_example/arm_variance_example_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_variance_example/system_ARMCM0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_variance_example/system_ARMCM3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Examples/arm_variance_example/system_ARMCM4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_abs_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_abs_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_abs_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_abs_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_add_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_add_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_add_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_add_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_dot_prod_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_mult_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_mult_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_mult_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_mult_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_negate_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_negate_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_negate_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_negate_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_offset_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_offset_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_offset_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_offset_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_scale_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_scale_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_scale_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_scale_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_shift_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_shift_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_shift_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_sub_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_sub_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_sub_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/BasicMathFunctions/arm_sub_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/CommonTables/arm_common_tables.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_conj_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_conj_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_conj_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_dot_prod_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_real_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ComplexMathFunctions/arm_cmplx_mult_real_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_pid_init_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_pid_init_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_pid_init_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_pid_reset_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_pid_reset_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_pid_reset_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_sin_cos_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/ControllerFunctions/arm_sin_cos_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_cos_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_cos_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_cos_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_sin_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_sin_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_sin_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_sqrt_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FastMathFunctions/arm_sqrt_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_init_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_init_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df1_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df2T_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_fast_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_fast_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_fast_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_fast_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_partial_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_conv_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_correlate_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_correlate_fast_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_correlate_fast_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_correlate_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_correlate_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_correlate_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_fast_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_fast_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_init_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_init_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_init_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_decimate_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_fast_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_fast_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_init_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_init_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_init_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_init_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_init_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_init_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_init_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_interpolate_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_init_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_init_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_init_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_lattice_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_init_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_fir_sparse_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_init_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_init_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_init_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_iir_lattice_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_init_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_init_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_init_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_init_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_init_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_init_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_norm_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/FilteringFunctions/arm_lms_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_add_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_add_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_add_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_init_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_init_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_init_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_inverse_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_fast_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_fast_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_mult_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_scale_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_scale_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_scale_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_sub_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_sub_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_sub_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_trans_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_trans_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/MatrixFunctions/arm_mat_trans_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_max_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_max_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_max_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_max_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_mean_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_mean_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_mean_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_mean_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_min_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_min_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_min_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_min_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_power_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_power_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_power_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_power_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_rms_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_rms_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_rms_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_std_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_std_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_std_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_var_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_var_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/StatisticsFunctions/arm_var_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_copy_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_copy_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_copy_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_copy_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_fill_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_fill_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_fill_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_fill_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_float_to_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_float_to_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_float_to_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q15_to_float.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q15_to_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q15_to_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q31_to_float.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q31_to_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q31_to_q7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q7_to_float.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q7_to_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/SupportFunctions/arm_q7_to_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_init_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_init_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_init_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_cfft_radix4_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_dct4_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_dct4_init_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_dct4_init_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_dct4_init_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_dct4_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_dct4_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_init_f32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_init_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_init_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_q15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/DSP_Lib/Source/TransformFunctions/arm_rfft_q31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/CMSIS/Include/arm_common_tables.h" />
+		<Unit filename="../../../../Libraries/CMSIS/Include/arm_math.h" />
+		<Unit filename="../../../../Libraries/CMSIS/Include/core_cm0.h" />
+		<Unit filename="../../../../Libraries/CMSIS/Include/core_cm3.h" />
+		<Unit filename="../../../../Libraries/CMSIS/Include/core_cm4.h" />
+		<Unit filename="../../../../Libraries/CMSIS/Include/core_cm4_simd.h" />
+		<Unit filename="../../../../Libraries/CMSIS/Include/core_cmFunc.h" />
+		<Unit filename="../../../../Libraries/CMSIS/Include/core_cmInstr.h" />
+		<Unit filename="../../../../Libraries/CMSIS/ST/STM32F4xx/Include/stm32f4xx.h" />
+		<Unit filename="../../../../Libraries/CMSIS/ST/STM32F4xx/Include/system_stm32f4xx.h" />
+		<Unit filename="../../../../Libraries/CMSIS/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/misc.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_adc.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_can.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_crc.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_cryp.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dac.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dbgmcu.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dcmi.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dma.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_exti.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_flash.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_fsmc.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_gpio.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_hash.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_i2c.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_iwdg.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_pwr.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rcc.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rng.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rtc.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_sdio.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_spi.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_syscfg.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_tim.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_usart.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_wwdg.h" />
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/audio/inc/usbd_audio_core.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/audio/inc/usbd_audio_out_if.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/audio/src/usbd_audio_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/audio/src/usbd_audio_out_if.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/cdc/inc/usbd_cdc_core.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/cdc/inc/usbd_cdc_if_template.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_if_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/dfu/inc/usbd_dfu_core.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/dfu/inc/usbd_dfu_mal.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/dfu/inc/usbd_flash_if.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/dfu/inc/usbd_mem_if_template.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/dfu/inc/usbd_otp_if.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/dfu/src/usbd_dfu_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/dfu/src/usbd_dfu_mal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/dfu/src/usbd_flash_if.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/dfu/src/usbd_mem_if_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/dfu/src/usbd_otp_if.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc/usbd_hid_core.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/hid/src/usbd_hid_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/msc/inc/usbd_msc_bot.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/msc/inc/usbd_msc_core.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/msc/inc/usbd_msc_data.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/msc/inc/usbd_msc_mem.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/msc/inc/usbd_msc_scsi.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/msc/src/usbd_msc_bot.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/msc/src/usbd_msc_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/msc/src/usbd_msc_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/msc/src/usbd_msc_scsi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Class/msc/src/usbd_storage_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_conf_template.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_core.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_def.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_ioreq.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_req.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_usr.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Core/src/usbd_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Core/src/usbd_ioreq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_Device_Library/Core/src/usbd_req.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Class/HID/inc/usbh_hid_core.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Class/HID/inc/usbh_hid_keybd.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Class/HID/inc/usbh_hid_mouse.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Class/HID/src/usbh_hid_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Class/HID/src/usbh_hid_keybd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Class/HID/src/usbh_hid_mouse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Class/MSC/inc/usbh_msc_bot.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Class/MSC/inc/usbh_msc_core.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Class/MSC/inc/usbh_msc_scsi.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Class/MSC/src/usbh_msc_bot.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Class/MSC/src/usbh_msc_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Class/MSC/src/usbh_msc_fatfs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Class/MSC/src/usbh_msc_scsi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Core/inc/usbh_conf_template.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Core/inc/usbh_core.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Core/inc/usbh_def.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Core/inc/usbh_hcs.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Core/inc/usbh_ioreq.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Core/inc/usbh_stdreq.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Core/src/usbh_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Core/src/usbh_hcs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Core/src/usbh_ioreq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_HOST_Library/Core/src/usbh_stdreq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_bsp.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_conf_template.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_core.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_dcd.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_dcd_int.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_defines.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_hcd.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_hcd_int.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_otg.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_regs.h" />
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/src/usb_bsp_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/src/usb_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/src/usb_dcd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/src/usb_dcd_int.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/src/usb_hcd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/src/usb_hcd_int.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Libraries/STM32_USB_OTG_Driver/src/usb_otg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../inc/arm_math.h" />
+		<Unit filename="../../inc/core_cm4.h" />
+		<Unit filename="../../inc/core_cm4_simd.h" />
+		<Unit filename="../../inc/core_cmFunc.h" />
+		<Unit filename="../../inc/core_cmInstr.h" />
+		<Unit filename="../../inc/stm32f4_discovery.h" />
+		<Unit filename="../../inc/stm32f4xx.h" />
+		<Unit filename="../../inc/stm32f4xx_adc.h" />
+		<Unit filename="../../inc/stm32f4xx_conf.h" />
+		<Unit filename="../../inc/stm32f4xx_dac.h" />
+		<Unit filename="../../inc/stm32f4xx_dma.h" />
+		<Unit filename="../../inc/stm32f4xx_gpio.h" />
+		<Unit filename="../../inc/stm32f4xx_it.h" />
+		<Unit filename="../../inc/stm32f4xx_rcc.h" />
+		<Unit filename="../../inc/stm32f4xx_tim.h" />
+		<Unit filename="../../src/main_filt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/main_filt_dsp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/main_svd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/stm32f4_discovery.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/svd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/system_stm32f4xx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

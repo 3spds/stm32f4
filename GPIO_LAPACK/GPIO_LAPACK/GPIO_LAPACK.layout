@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../src/main.c" open="1" top="0" tabpos="1">
+		<Cursor position="10048" topLine="289" />
+	</File>
+	<File name="../src/main_adc_only.c" open="1" top="0" tabpos="5">
+		<Cursor position="0" topLine="187" />
+	</File>
+	<File name="../src/main_blinker.c" open="1" top="1" tabpos="3">
+		<Cursor position="5168" topLine="123" />
+	</File>
+	<File name="../src/main_nosine.c" open="1" top="0" tabpos="4">
+		<Cursor position="0" topLine="240" />
+	</File>
+	<File name="../src/stm32f4xx_rcc.c" open="1" top="0" tabpos="2">
+		<Cursor position="53317" topLine="1179" />
+	</File>
+</CodeBlocks_layout_file>
