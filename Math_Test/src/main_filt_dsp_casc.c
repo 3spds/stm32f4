@@ -23,6 +23,7 @@ __IO uint16_t ADC3ConvertedValue[4] = {0, 0, 0, 0};
 __IO uint16_t DAC1ConvertedValue[VECSIZE];
 __IO long i = 0;
 __IO long counter = 0;
+long control_counter = 0;
 __IO float32_t outvalue = 0;
 __IO float32_t fbvalue = 0;
 __IO float32_t fb = 0;
@@ -149,8 +150,10 @@ void TIM3_IRQHandler(void) //adc float converter
 		{ //convert adc inputs to float
 			ADC3ConvertedVoltage[j] = ((float)(ADC3ConvertedValue[j])/4096);
 		}
-
-		(ap.f_w0) = ADC3ConvertedVoltage[1];
+        control_counter++; //increment counter (for lfos)
+//		(ap.f_w0) = ADC3ConvertedVoltage[1];
+//		(ap.f_w0) = atanf(ADC3ConvertedVoltage[1]*(sin(((float)counter/1000)*2*3.14159)/2+0.5))/2 + 0.5;
+        (ap.f_w0) = sin((float)control_counter/10*2*3.14159)/2 + 0.5;
 		(ap.f_rq) = ADC3ConvertedVoltage[2];
 
 		ap_filter_coefs(&ap);

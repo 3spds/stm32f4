@@ -1,6 +1,6 @@
 # put your *.o targets here, make should handle the rest!
 
-SRCS = main.c system_stm32f4xx.c stm32f4xx_rcc.c stm32f4_discovery.c stm32f4xx_adc.c  stm32f4xx_dac.c  stm32f4xx_dma.c
+SRCS = main_sine.c system_stm32f4xx.c stm32f4xx_rcc.c stm32f4_discovery.c stm32f4xx_adc.c  stm32f4xx_dac.c  stm32f4xx_dma.c
 
 # all the files will be generated with this name (main.elf, main.bin, main.hex, etc)
 
